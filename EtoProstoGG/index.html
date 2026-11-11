@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> proebal prepody </title>
+
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f0ec;
+            background-image: url('data/body_fon_40.png ');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /
+        }
+    </style>
+
+</head>
+<body>
+<!--Фон сайта верхней части   + линки и тд-->
+<div class="position-relative container-fluid p-0 overflow-hidden" style="min-height: 80vh;">
+
+    <video autoplay muted loop playsinline class="position-absolute w-100 h-100" style="object-fit: cover; z-index: 1;">
+        <source src="data/PAFOS_1.mp4" type="video/mp4">
+    </video>
+
+    <div class="position-absolute w-100 h-100 bg-dark opacity-50" style="z-index: 2;">
+
+    </div>
+        <div class="position-relative w-100 h-100 d-flex flex-column justify-content-between" style="min-height: 80vh; z-index: 3;">
+
+            <div class="container px-5  text-white">
+
+                <div class = "hover-lift hstack gap-3 bg-dark bg-opacity-50 p-2 rounded px-3">
+
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light w-100 py-4 rounded-0 text-uppercase fw-semibold fs-4 shadow-sm"
+                               style="letter-spacing: 2px" aria-current="page" href="#" >Active</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class= "nav-link text-light w-100 py-4 rounded-0 text-uppercase fw-semibold fs-4 shadow-sm"
+                               style="letter-spacing: 2px" href="#">Link</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light w-100 py-4 rounded-0 text-uppercase fw-semibold fs-4 shadow-sm"
+                               style="letter-spacing: 2px"  href="#">Link</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class = "pb-4"></div>
+
+            </div>
+
+            <div class="container text-center text-white my-auto">
+                <h1 class="display-4 fw-bold">РЕСТОРАН В АЛМАТЫ</h1>
+                <p class="fs-5">Живая атмосфера и изысканная кухня</p>
+            </div>
+        </div>
+    </div>
+
+<!--Контейнер для вида БЫЛ -->
+<div class="container mt-5">
+    <div class="row g-4">
+
+        <!-- Левая кнопка -->
+        <div class="col-md-6">
+            <a href="menu.html" class="btn btn-light w-100 py-4 rounded-0 text-uppercase fw-semibold fs-4 shadow-sm" style="letter-spacing: 2px">
+                Открыть меню
+            </a>
+        </div>
+        <!-- Правая кнопка-->
+        <div class="col-md-6">
+            <a href="#" class="btn btn-light w-100 py-4 rounded-0 text-uppercase fw-semibold fs-4 shadow-sm" style="letter-spacing: 2px">
+                Забронировать стол
+            </a>
+        </div>
+
+    </div>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
